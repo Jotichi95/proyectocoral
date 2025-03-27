@@ -260,7 +260,7 @@ footer {
     padding: 15px;
     height: 65px;
 }
-
+*/
 .contenedor2 {
     display: grid;
     grid-template-areas: 
@@ -281,7 +281,7 @@ footer {
 
 }  
 
-/*.contenedor3{
+.contenedor3{
     
     display: grid;
     grid-template-areas: 
