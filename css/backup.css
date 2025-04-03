@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*a{
+    color: black;
+    text-decoration: none;
+    margin: 25px;
+    size: 155px;
+}*/
+
+/*{
+
+
+}*/
+
+/*.wsplogo{
+
+    width: 50px;
+    height: 50px;
+}*/
+
+
+#presentacion{
+    display: flex;
+    flex-direction: column;
+    font-size:220%;
+    text-align: center;
+    background-color: aliceblue;
+
+
+    
+
+}
+
+
+.lista{
+    color: rgb(202, 52, 52);
+    text-decoration-line: underline;
+    font-size:80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+h2 {
+    font-size: xx-large;
+}
+
+
+/*.piezas{
+    text-align:justify;
+    text-align: left;
+}*/
+
+
+/*.sushibar{
+    text-align:justify;
+    font-style: normal;
+}*/
+
+
+
+/*#cuerpo{
+    font-weight: bold;
+    font-size: 150%;
+    font-family:"Smooch Sans", serif;
+
+}*/
+
+
+/*.redes{
+    font-family:"Smooch Sans", serif;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+
+}*/
+
+
+
+
+
+/*.coralheader {
+    font-family:"Smooch Sans", serif;
+    text-align: center;
+    width:800px;
+    background-image: url(../imagen/wallpaper.png);
+    padding: 0%;
+    font-size: 35px;
+    height: px;
+  /*  border: 9px solid rgb(219, 9, 9);
+}*/
+
+/*.inline-element {
+    display: inline;
+    color: red;
+
+}*/
+
+/*.combo{
+    color: red;
+
+    
+}*/
+
+/*.encabezado{
+    display: inline-block;
+    text-align: center;
+    font-size:200%;
+
+    margin-top:auto;
+    margin-bottom: 1rem;
+    padding: 25px;
+    font-size: 45px;
+    
+}*/
+
+.imgmenu{
+    display: flex;
+    border: 9px solid rgb(219, 9, 9);
+    width:1425px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+
+
+
+}
+.redesx{
+    font-family:"Smooch Sans", serif;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+   
+}
+
+/*.links{
+    font-family:"Smooch Sans", serif;
+    display: inline;
+    color: red;
+    font-weight: bold;
+}*/
+/*.encabezado {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 10px;
+}*/
+
+.tabla{
+
+    margin: 5%;
+    border: 9px solid;
+    margin-left: 7%;
+}
+
+.h1coral{
+    text-align: center;
+    padding: 15px;
+    border: 9px solid rgb(219, 9, 9);
+
+}
+
+
+  
+/*.centro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}*/
+  
+header.sticky {
+    position: sticky;
+    top: 0;
+}
+  
+nav {
+    width: 70%;
+}
+  
+
+.flexbox{
+    display: flex;
+    flex-direction:column;
+}
+.imgmenu2{
+    display: flex;
+    flex-direction: column;
+}
+.estamos{
+    text-align: center;
+}
+.parrafo{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pregunta{
+    text-align: center;
+    height: 20px;
+    font-size: 40px;
+}
+
+
+
+.saludo{
+    
+    background-color: rgb(123, 8, 246);
+    padding: 55px;
+    margin-top: 50px;
+}  
+
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    height: 10vh;
+    gap: 10px;
+    padding: 10px;
+}
+header{
+    text-align: center;
+    width:1400px;
+    background-image: url(../imagen/wallpaper.png);
+
+    font-size: 35px;
+    height: 25px;
+    grid-area: header;  
+    padding: 20px;
+}
+aside {
+    grid-area: sidebar;
+    background-color: #8000ff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+main {
+    grid-area: content;
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #0059ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+*/
+.contenedor2 {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "content content"
+        "footer footer";
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 80px 350px 60px;
+    height: 100vh;
+    gap: 10px;
+    padding: 10px;
+}
+.saludo2{
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin-top: 45px;
+
+}  
+
+.contenedor3{
+    
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "content content"
+        "content content"
+        "footer footer";
+    grid-template-columns: 720px 720px ;
+    grid-template-rows: 80px 500px 700px 60px;
+ 
+
+
+}*/
+.main3 {
+    grid-area: content;
+
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+
+
+@media (min-width: 769px) {
+
+    .parrafo {
+        font-size: 45px;
+    }
+}
+
+/* Tamaño de texto para dispositivos móviles */
+@media (max-width: 768px) {
+
+    .parrafo {
+        font-size: 25px;
+    }
+}
