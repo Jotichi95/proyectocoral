@@ -86,11 +86,11 @@ h2 {
 .coralheader {
     font-family:"Smooch Sans", serif;
     text-align: center;
-    width:1470px;
+    width:800px;
     background-image: url(../imagen/wallpaper.png);
     padding: 0%;
     font-size: 35px;
-    height: 70px;
+    height: px;
   /*  border: 9px solid rgb(219, 9, 9);*/
 }
 
@@ -134,7 +134,7 @@ h2 {
     font-size: 35px;
     text-align: center;
     font-style: normal;
-    margin-top: 200px;
+   
 }
 
 .links{
