@@ -1,0 +1,112 @@
+h2 {
+  font-size: xx-large;
+  color: red;
+}
+
+/*#cuerpo{
+    font-weight: bold;
+    font-size: 150%;
+    font-family:"Smooch Sans", serif;
+
+}*/
+a {
+  color: black;
+  text-decoration: none;
+  margin: 25px;
+  size: 155px;
+}
+
+nav {
+  width: 70%;
+}
+
+.sushibar {
+  text-align: justify;
+  font-style: normal;
+}
+
+.lista {
+  color: rgb(202, 52, 52);
+  text-decoration-line: underline;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafo {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-size: 55px;
+}
+
+.estamos {
+  text-align: center;
+}
+
+#presentacion {
+  display: flex;
+  flex-direction: column;
+  font-size: 220%;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+/*aside {
+    grid-area: sidebar;
+    background-color: #8000ff;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+/*main {
+    grid-area: content;
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: justify;
+}*/
+/*.pregunta{
+    text-align: center;
+    height: 20px;
+    font-size: 40px;
+}*/
+body {
+  font-weight: bold;
+  font-size: 150%;
+  font-family: "Smooch Sans", serif;
+}
+body nav {
+  width: 70%;
+}
+body a {
+  color: black;
+  text-decoration: none;
+  margin: 25px;
+  size: 155px;
+}
+body aside {
+  grid-area: sidebar;
+  background-color: #8000ff;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+body main {
+  grid-area: content;
+  background-color: #ecf0f1;
+  padding: 20px;
+  text-align: justify;
+}
+body .pregunta {
+  text-align: center;
+  height: 20px;
+  font-size: 40px;
+}
+body .saludo2 {
+  font-size: 35px;
+  background-color: rgb(216, 68, 68);
+  padding: 8px;
+  margin-top: 45px;
+}
+
+/*# sourceMappingURL=styless.css.map */
