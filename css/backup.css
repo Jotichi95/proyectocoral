@@ -3,12 +3,12 @@
     margin: 0;
 }
 
-/*a{
+a{
     color: black;
     text-decoration: none;
     margin: 25px;
     size: 155px;
-}*/
+}
 
 /*{
 
@@ -56,28 +56,28 @@ h2 {
 }*/
 
 
-/*.sushibar{
+.sushibar{
     text-align:justify;
     font-style: normal;
-}*/
+}
 
 
 
-/*#cuerpo{
+#cuerpo{
     font-weight: bold;
     font-size: 150%;
     font-family:"Smooch Sans", serif;
 
-}*/
+}
 
 
-/*.redes{
+.redes{
     font-family:"Smooch Sans", serif;
     font-size: 35px;
     text-align: center;
     font-style: normal;
 
-}*/
+}
 
 
 
@@ -92,7 +92,7 @@ h2 {
     font-size: 35px;
     height: px;
   /*  border: 9px solid rgb(219, 9, 9);
-}*/
+}
 
 /*.inline-element {
     display: inline;
@@ -137,7 +137,7 @@ h2 {
    
 }
 
-/*.links{
+.links{
     font-family:"Smooch Sans", serif;
     display: inline;
     color: red;
@@ -297,7 +297,6 @@ footer {
 }*/
 .main3 {
     grid-area: content;
-
     padding: 20px;
     text-align: justify;
     
